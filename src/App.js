@@ -9,15 +9,15 @@ import 'firebase/analytics';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
-firebase.initializeApp({
-  apiKey: "AIzaSyBAM0lqNN02UpmIehJXXWDFOEoCyW7UpTQ",
-  authDomain: "fierbasechat-b1b5d.firebaseapp.com",
-  projectId: "fierbasechat-b1b5d",
-  storageBucket: "fierbasechat-b1b5d.appspot.com",
-  messagingSenderId: "256763580850",
-  appId: "1:256763580850:web:90d2cb3fdac3e7900e14ab",
-  measurementId: "G-GN4ZT0QKGX"
-})
+const firebaseConfig = {
+  apiKey: "AIzaSyAA9InL7driCbkAzhEZLEMEARBmiogybZU",
+  authDomain: "chat-b81e6.firebaseapp.com",
+  projectId: "chat-b81e6",
+  storageBucket: "chat-b81e6.appspot.com",
+  messagingSenderId: "1053814264661",
+  appId: "1:1053814264661:web:957c4aaebc8e5c2d5e55dc",
+  measurementId: "G-NGWKQSJ34W"
+};
 
 const auth = firebase.auth();
 const firestore = firebase.firestore();
